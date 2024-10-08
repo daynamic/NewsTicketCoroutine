@@ -36,6 +36,16 @@ android {
 }
 
 dependencies {
+    //Retrofit
+    implementation (libs.retrofit)
+
+    //GSON converter
+    implementation (libs.converter.gson)
+
+    implementation (libs.glide)
+
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
